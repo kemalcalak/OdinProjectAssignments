@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preload" href="halie-west-25xggax4bSA-unsplash.jpg" as="image">
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+     <div class="first_container">
+        
+        <div class="logo" >
+            <img id="logo_img" src="odin-lined.png" alt="LOGO">
+             ODİN
+        </div>   
+    
+        
+    </div>
+ 
+    <div class="second_container">
+   
+        <form action ="" method="post" class="speaker_form"   onsubmit="return validatePasswords()">
+            <div >
+        
+          <h3>Let's do it </h3>
+        <section>   
+        <p>
+            <label for="firstname">
+              <span>First Name: </span>
+              <strong><span aria-label="required">*</span></strong>
+            </label>
+            <input type="text" id="firstname" name="user_firstname" required placeholder="Kemal"/>
+          </p>
+           <p>
+            <label for="lastname">
+              <span>Last Name: </span>
+              <strong><span aria-label="required">*</span></strong>
+            </label>
+            <input type="text" id="lastname" name="user_lastname" required placeholder="Calak"/>
+          </p>
+            
+          </section>
+        
+        <section>
+          <p>
+            <label for="mail">
+              <span>Email: </span>
+              <strong><span aria-label="required">*</span></strong>
+            </label>
+            <input type="email" id="mail" name="usermail" required  placeholder="kemalcalak@gmail.com" />
+          </p>
+          <p>
+            <label for="mobile">
+              <span>Mobile Number: </span>
+              <strong><span aria-label="required">*</span>               </strong>
+            </label>
+            <input type="phone" id="mobile" required="true"
+              placeholder="+901234567890" pattern="+90^(0[1-9])"/>
+          </p>
+          </section>
+        
+        <section>
+            <p>
+            <label for="pwd">
+              <span>Password: </span>
+              <strong><span aria-label="required">*</span>                </strong>
+            </label>
+            <input type="password" id="pwd" name="password"   required placeholder="123456" />
+          </p>
+        
+          <p>
+           <label for="confirm_pass">
+              <span>Confirm Password :</span>
+              <strong><span aria-label="required">*</span>                </strong>
+            </label>
+            <input type="password" id="confirm_pass" name="confirm_password" required placeholder="123456"   oninput="validatePasswords()"/>
+            <span id="password_error" style="color:red; display:none;">Passwords do not match!</span>
+
+          </p>
+          
+        </section>
+        
+        </div>
+       
+      </form>
+      <p class="createAccount"><button type="submit">Create Account</button> <strong> Already have an account? <a href="">Login</a></strong></p>
+     
+      </div>
+              
+       
+</div>
+    </body>
+</html>
