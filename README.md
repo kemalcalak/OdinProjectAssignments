@@ -1,6 +1,6 @@
 # Odin Project Assignments
 
-This repository contains assignments from [The Odin Project] (https://www.theodinproject.com/paths/full-stack-javascript) curriculum. It contains a variety of projects and tasks to apply the skills I've learned throughout my Full Stack JavaScript journey.
+This repository contains assignments from [The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript) curriculum. It contains a variety of projects and tasks to apply the skills I've learned throughout my Full Stack JavaScript journey.
 
 ## Projects
 
